@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css" >
+  <link rel="stylesheet" type="text/css" href="estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Presentaci&oacute;n</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#">principal</a></li>
+    <li><a href="#">fotos</a></li>
+    <li><a href="#">videos</a></li>
+    <li><a href="#">contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Valeria Maciel Villa</h1>
+                  <h4>CV</h4>
+              </hgroup>
+              <time datetime="2024-03-24" pubdate>
+                    Publicado 24-03-24
+              </time>
+        </header>
+        <br>Nombre completo: Valeria Maciel Villa
+        <br>Fecha de naciemiento: 14 de julio de 2003
+        <br>Lugar de nacimiento: Orizaba, Veracruz, M&eacute;xico
+          <figure>
+                <img id="imagen" src="img/Yo.jpeg">
+                <figcaption>
+                    Esta soy yo jaja
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>Comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Instituto Tecnologico de Orizaba</h1>
+                <h4>Informaci&oacute;n</h4>
+            </hgroup>
+            <time datetime="2024-03-24" pubdate>
+                Publicado 24-03-24
+            </time>
+         </header>
+          Direcci&oacute;n:
+         <figure>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.9625223801786!2d-97.09801965805913!3d18.855434002324255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aecfb4db8d%3A0x8f5c2fed1d8416f2!2sINSTITUTO%20TECNOL%C3%93GICO%20DE%20ORIZABA%20Maestr%C3%ADa%20en%20Sistemas%20Computacionales!5e0!3m2!1ses!2smx!4v1709601544412!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <footer>
+            <p>Comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Siguenos en nuestras redes sociales.</blockquote>
+      <blockquote>Te dejamos los links:</blockquote>
+      <a href="https://www.facebook.com/Vale.Maciel.V?mibextid=ZbWKwL">
+       <figure>
+         <img src="img/Facebook.png" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/vale.maciel_?igsh=MTUyYmkwcGZqZDN6Yg==">
+        <figure>
+          <img src="img/instagram.png" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2023-2024
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
